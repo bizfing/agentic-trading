@@ -27,7 +27,7 @@ class AlphaBotAgent(BaseAgent):
     """ADK Agent implementing the AlphaBot trading logic."""
 
     ticker: Optional[str] = None
-    tools: Optional[List[BaseTool]] = None
+    tools: Optional[List[BaseseTool]] = None
 
     def __init__(
         self,
